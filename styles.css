@@ -1,0 +1,381 @@
+  
+
+
+/* NEW Header */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #b3ff00; /* Change color on hover */
+}
+
+
+
+
+
+
+
+.about-us {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-us-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-us h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 2em;
+  line-height: 1.6;
+}
+
+
+/* .services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services ul li {
+  margin-bottom: 10px;
+} */
+
+
+.our-services {
+  background-image: url(https://resources.commlabindia.com/hubfs/Imported_Blog_Media/animated-gifs-corporate-training.gif);
+  background-size: auto;
+background-repeat: no-repeat;
+  background-color: hsla(178, 64%, 71%, 0.541);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.our-services-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.our-services h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.service {
+  margin-bottom: 30px;
+}
+
+.service img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 1em;
+}
+
+
+
+
+
+
+
+/* CSS of Form */
+
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+}
+
+#submit-btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#success-message {
+  margin-top: 20px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 10px;
+  display: none;
+}
+
+
+
+
+/* Css of Prod. */
+.featured-products {
+  background-color: #f8f9fa;
+  background-image: url(https://cdn.dribbble.com/users/4055494/screenshots/15215756/media/d2b66c4ca0192aa26d103448b3d1518b.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.featured-products-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.featured-products h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.product {
+  margin-bottom: 30px;
+}
+
+.product img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 1em;
+}
+
+
+
+
+
+/* CARD 
+.product-card {
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  position: relative;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .overlay {
+  opacity: 1;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.product-info {
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #007bff;
+} */
+
+
+
+
+
+
+
+
+.product-container {
+  display: flex;
+flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -10px; /* Negative margin to offset padding on children */
+}
+
+.product-card {
+  width: calc(33.33% - 20px); /* 33.33% width for each card with 10px padding on both sides */
+  margin: 5px; /* Adjust margin to create space between cards */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  position: relative;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .overlay {
+  opacity: 1;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.product-info {
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #007bff;
+}
